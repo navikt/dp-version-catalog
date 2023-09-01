@@ -77,7 +77,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = URI("https://maven.pkg.github.com/navikt/dp-gradle-catalog")
+            url = URI("https://maven.pkg.github.com/navikt/dp-version-catalog")
             credentials {
                 val githubUser: String? by project
                 val githubPassword: String? by project
