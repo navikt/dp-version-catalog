@@ -23,7 +23,7 @@ jobs:
         with:
           gradle-version: wrapper
           dependency-graph: generate-and-submit
-          arguments: --configuration-cache test
+          arguments: --configuration-cache generateCatalogAsToml
 
       - name: Set release tag
         run: |
