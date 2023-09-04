@@ -49,5 +49,5 @@ postgres = ["flyway", "hikari", "postgresql-driver", "kotlinquery"]
 
 [plugins]
 kotlin = {id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-spotless = {id = "com.diffplug.spotless", version = "6.20.0" }
+spotless = {id = "com.diffplug.spotless", version = "6.21.0" }
 
