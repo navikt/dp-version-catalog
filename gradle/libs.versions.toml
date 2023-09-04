@@ -9,7 +9,7 @@ dp-biblioteker = "2023.04.27-09.33.fcf0798bf943"
 jackson = "2.15.2"
 kotest = "5.7.1"
 kotlin = "1.9.10"
-ktor = "2.1.0"
+ktor = "2.3.3"
 testcontainer = "2.3.1"
 
 [libraries]
