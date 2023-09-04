@@ -19,6 +19,9 @@ kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", vers
 dp-biblioteker-oauth2-klient = { group = "com.github.navikt.dp-biblioteker", name = "dp-biblioteker-oauth2-klient", version.ref = "dp-biblioteker" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 
+# Rapids and Rivers
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023060108511685602318.b6acfa4d79a1" }
+
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version = "9.22.0" }
 hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.0.1" }
@@ -58,6 +61,7 @@ kotest-assertions = ["kotest-assertions-core", "kotest-assertions-json"]
 ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-jackson", "ktor-client-logging-jvm", "ktor-client-content-negotiation"]
 ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negoitation", "ktor-server-status-pages"]
 postgres = ["flyway", "hikari", "postgresql-driver", "kotlinquery"]
+postgres-test = ["testcontainer", "testcontainer-postgresql"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
