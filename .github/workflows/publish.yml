@@ -36,6 +36,7 @@ jobs:
         with:
           tag: ${{ env.RELEASE_TAG }}
           generateReleaseNotes: true
+          makeLatest: true # Versjonnummerene er ikke semantiske
 
       - name: publish
         run: ./gradlew publish
