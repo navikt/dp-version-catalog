@@ -56,7 +56,7 @@ ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-conte
 ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor" }
 
 [bundles]
-jackson = ["jackson-datatype-jsr310", "jackson-core", "jackson-annotation"]
+jackson = ["jackson-datatype-jsr310", "jackson-core", "jackson-annotation", "jackson-kotlin"]
 kotest-assertions = ["kotest-assertions-core", "kotest-assertions-json"]
 ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-jackson", "ktor-client-logging-jvm", "ktor-client-content-negotiation"]
 ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages"]
