@@ -30,9 +30,9 @@ postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "
 testcontainer-postgresql = { group = "org.testcontainers", name = "testcontainer-postgresql", version.ref = "testcontainer" }
 
 # Serialization
-jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotation", version.ref = "jackson" }
+jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jackson" }
 jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version.ref = "jackson" }
-jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.core", name = "jackson-datatype-jsr310", version.ref = "jackson" }
+jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version.ref = "jackson" }
 jackson-kotlin = { group = "com.fasterxml.jackson.core", name = "jackson-module-kotlin", version.ref = "jackson" }
 
 # Test
