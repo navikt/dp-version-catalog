@@ -15,7 +15,7 @@ testcontainer = "2.3.1"
 [libraries]
 dp-biblioteker-image-utils = {group = "com.github.navikt.dp-biblioteker", name = "dp-biblioteker-image-utils", version.ref = "dp-biblioteker" }
 dp-biblioteker-oauth2-klient = {group = "com.github.navikt.dp-biblioteker", name = "dp-biblioteker-oauth2-klient", version.ref = "dp-biblioteker" }
-flyway = {group = "org.flywaydb", name = "flyway-core", version = "9.21.2" }
+flyway = {group = "org.flywaydb", name = "flyway-core", version = "9.22.0" }
 hikari = {group = "com.zaxxer", name = "HikariCP", version = "5.0.1" }
 jackson-annotation = {group = "com.fasterxml.jackson.core", name = "jackson-annotation", version.ref = "jackson" }
 jackson-core = {group = "com.fasterxml.jackson.core", name = "jackson-core", version.ref = "jackson" }
