@@ -32,8 +32,8 @@ testcontainer-postgresql = { group = "org.testcontainers", name = "testcontainer
 # Serialization
 jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jackson" }
 jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version.ref = "jackson" }
-jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version.ref = "jackson" }
 jackson-kotlin = { group = "com.fasterxml.jackson.core", name = "jackson-module-kotlin", version.ref = "jackson" }
+jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version.ref = "jackson" }
 
 # Test
 testcontainer = { group = "org.testcontainers", name = "testcontainer", version.ref = "testcontainer" }
@@ -52,7 +52,7 @@ ktor-serialization-jackson = { group = "io.ktor", name = "ktor-serialization-jac
 ktor-server = { group = "io.ktor", name = "ktor-server", version.ref = "ktor" }
 ktor-server-auth = { group = "io.ktor", name = "ktor-server-auth", version.ref = "ktor" }
 ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
-ktor-server-content-negoitation = { group = "io.ktor", name = "ktor-server-content-negoitation", version.ref = "ktor" }
+ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version.ref = "ktor" }
 ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor" }
 
 [bundles]
