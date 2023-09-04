@@ -48,7 +48,7 @@ catalog {
         library("flyway", "org.flywaydb", "flyway-core").version("9.21.2")
         library("hikari", "com.zaxxer", "HikariCP").version("5.0.1")
         library("postgresql-driver", "org.postgresql", "postgresql").version("42.6.0")
-        library("kotlinquery", "com.github.seratch", "kotlinquery").version("1.9.0")
+        library("kotliquery", "com.github.seratch", "kotliquery").version("1.9.0")
 
         pakke("testcontainer", "org.testcontainers", "testcontainer") {
             +""
@@ -63,7 +63,7 @@ catalog {
         }.version("2023.04.27-09.33.fcf0798bf943")
 
         // Bundles
-        bundle("postgres", listOf("flyway", "hikari", "postgresql-driver", "kotlinquery"))
+        bundle("postgres", listOf("flyway", "hikari", "postgresql-driver", "kotliquery"))
         bundle("kotest-assertions", listOf("kotest-assertions-core", "kotest-assertions-json"))
     }
 }
