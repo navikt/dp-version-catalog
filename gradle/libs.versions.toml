@@ -11,6 +11,7 @@ kotest = "5.7.2"
 kotlin = "1.9.10"
 ktor = "2.3.4"
 testcontainer = "1.19.0"
+junit = "5.10.0
 
 [libraries]
 # Utils
