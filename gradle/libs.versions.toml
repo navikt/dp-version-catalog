@@ -24,7 +24,7 @@ konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023060108511685602318.b6acfa4d79a1" }
 
 # Database
-flyway = { group = "org.flywaydb", name = "flyway-core", version = "9.22.0" }
+flyway = { group = "org.flywaydb", name = "flyway-core", version = "9.22.1" }
 hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.0.1" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.0" }
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.6.0" }
