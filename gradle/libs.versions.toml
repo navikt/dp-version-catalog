@@ -15,8 +15,8 @@ junit = "5.10.0"
 
 [libraries]
 # Utils
-dp-biblioteker-image-utils = { group = "com.github.navikt.dp-biblioteker", name = "dp-biblioteker-image-utils", version.ref = "dp-biblioteker" }
-dp-biblioteker-oauth2-klient = { group = "com.github.navikt.dp-biblioteker", name = "dp-biblioteker-oauth2-klient", version.ref = "dp-biblioteker" }
+dp-biblioteker-image-utils = { group = "com.github.navikt.dp-biblioteker", name = "image-utils", version.ref = "dp-biblioteker" }
+dp-biblioteker-oauth2-klient = { group = "com.github.navikt.dp-biblioteker", name = "oauth2-klient", version.ref = "dp-biblioteker" }
 dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20230925.20.cf41f8" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
