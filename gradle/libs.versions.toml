@@ -22,7 +22,7 @@ kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", vers
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023060108511685602318.b6acfa4d79a1" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023082311481692784104.98e0711da2cd" }
 
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version = "9.22.1" }
