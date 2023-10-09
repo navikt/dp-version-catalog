@@ -56,6 +56,8 @@ ktor-server-auth = { group = "io.ktor", name = "ktor-server-auth", version.ref =
 ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version.ref = "ktor" }
 ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor" }
+ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version.ref = "ktor" }
+ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metrics-micrometer", version.ref = "ktor" }
 
 [bundles]
 jackson = ["jackson-datatype-jsr310", "jackson-core", "jackson-annotation", "jackson-kotlin"]
