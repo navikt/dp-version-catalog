@@ -12,14 +12,23 @@ kotlin = "1.9.10"
 ktor = "2.3.5"
 testcontainer = "1.19.1"
 junit = "5.10.0"
+micrometer = "1.11.4"
+logback = "1.4.11"
+
 
 [libraries]
 # Utils
 dp-biblioteker-image-utils = { group = "com.github.navikt.dp-biblioteker", name = "image-utils", version.ref = "dp-biblioteker" }
 dp-biblioteker-oauth2-klient = { group = "com.github.navikt.dp-biblioteker", name = "oauth2-klient", version.ref = "dp-biblioteker" }
+dp-biblioteker-ktor-klient-metrics = { group = "com.github.navikt.dp-biblioteker", name = "ktor-client-metrics", version.ref = "dp-biblioteker" }
 dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20230925.20.cf41f8" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
+micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version.ref = "micrometer" }
+
+# logging
+locback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = "logback" }
+locback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
 rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023093008351696055717.ffdec6aede3d" }
