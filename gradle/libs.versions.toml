@@ -5,7 +5,7 @@
 format.version = "1.1"
 
 [versions]
-dp-biblioteker = "2023.04.27-09.33.fcf0798bf943"
+dp-biblioteker = "2023.10.24-13.47.d3b2b6230e59"
 jackson = "2.15.3"
 kotest = "5.7.2"
 kotlin = "1.9.10"
@@ -18,9 +18,9 @@ logback = "1.4.11"
 
 [libraries]
 # Utils
-dp-biblioteker-image-utils = { group = "com.github.navikt.dp-biblioteker", name = "image-utils", version.ref = "dp-biblioteker" }
-dp-biblioteker-oauth2-klient = { group = "com.github.navikt.dp-biblioteker", name = "oauth2-klient", version.ref = "dp-biblioteker" }
-dp-biblioteker-ktor-klient-metrics = { group = "com.github.navikt.dp-biblioteker", name = "ktor-client-metrics", version.ref = "dp-biblioteker" }
+dp-biblioteker-image-utils = { group = "no.nav.dagpenger", name = "image-utils", version.ref = "dp-biblioteker" }
+dp-biblioteker-oauth2-klient = { group = "no.nav.dagpenger", name = "oauth2-klient", version.ref = "dp-biblioteker" }
+dp-biblioteker-ktor-klient-metrics = { group = "no.nav.dagpenger", name = "ktor-client-metrics", version.ref = "dp-biblioteker" }
 dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20230925.20.cf41f8" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
