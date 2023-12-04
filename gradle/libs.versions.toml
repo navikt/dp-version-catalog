@@ -6,15 +6,15 @@ format.version = "1.1"
 
 [versions]
 dp-biblioteker = "2023.11.27-13.50.d478414fd10d"
-jackson = "2.15.3"
+jackson = "2.16.0"
 kotest = "5.8.0"
-kotlin = "1.9.20"
+kotlin = "1.9.21"
 ktor = "2.3.6"
-testcontainer = "1.19.1"
+testcontainer = "1.19.3"
 junit = "5.10.0"
 micrometer = "1.12.0"
-logback = "1.4.11"
-flyway = "10.0.1"
+logback = "1.4.14"
+flyway = "10.1.0"
 
 
 [libraries]
@@ -39,7 +39,7 @@ flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" 
 flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql", version.ref = "flyway" }
 hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.1.0" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.0" }
-postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.6.0" }
+postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.0" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
 
 # Serialization
@@ -53,7 +53,7 @@ testcontainer = { group = "org.testcontainers", name = "testcontainers", version
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
 kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-jvm", version.ref = "kotest" }
 mockk = { group = "io.mockk", name = "mockk", version = "1.13.8" }
-mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.0.0" }
+mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.0.1" }
 
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
@@ -82,5 +82,5 @@ postgres-test = ["testcontainer", "testcontainer-postgresql"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-spotless = { id = "com.diffplug.spotless", version = "6.22.0" }
+spotless = { id = "com.diffplug.spotless", version = "6.23.2" }
 
