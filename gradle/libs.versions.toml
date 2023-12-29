@@ -32,7 +32,7 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023093008351696055717.ffdec6aede3d" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2023120410321701682379.55cc1a24d803" }
 
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
