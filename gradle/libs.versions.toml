@@ -2,7 +2,7 @@
 format.version = "1.1"
 
 [versions]
-dp-biblioteker = "2023.11.27-13.50.d478414fd10d"
+dp-biblioteker = "2024.02.14-13.55.91c5b7aba9a3"
 jackson = "2.16.1"
 kotest = "5.8.0"
 kotlin = "1.9.22"
