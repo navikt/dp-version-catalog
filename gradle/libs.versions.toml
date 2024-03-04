@@ -21,7 +21,7 @@ dp-biblioteker-image-utils = { group = "no.nav.dagpenger", name = "image-utils",
 dp-biblioteker-oauth2-klient = { group = "no.nav.dagpenger", name = "oauth2-klient", version.ref = "dp-biblioteker" }
 dp-biblioteker-ktor-klient-metrics = { group = "no.nav.dagpenger", name = "ktor-client-metrics", version.ref = "dp-biblioteker" }
 dp-biblioteker-pdl-klient = { group = "no.nav.dagpenger", name = "pdl-klient", version.ref = "dp-biblioteker"}
-dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20230925.20.cf41f8" }
+dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20240304.24.a9b330" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version.ref = "micrometer" }
