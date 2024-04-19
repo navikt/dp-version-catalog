@@ -2,17 +2,17 @@
 format.version = "1.1"
 
 [versions]
-dp-biblioteker = "2024.02.22-13.21.98cb0d748d24"
-jackson = "2.16.1"
-kotest = "5.8.0"
+dp-biblioteker = "2024.04.08-22.58.82250603e7b6"
+jackson = "2.17.0"
+kotest = "5.8.1"
 kotlin = "1.9.23"
-ktor = "2.3.7"
-testcontainer = "1.19.3"
-junit = "5.10.0"
-micrometer = "1.12.1"
-logback = "1.4.14"
-flyway = "10.4.1"
-mockk = "1.13.8"
+ktor = "2.3.10"
+testcontainer = "1.19.7"
+junit = "5.10.2"
+micrometer = "1.12.5"
+logback = "1.5.6"
+flyway = "10.11.1"
+mockk = "1.13.10"
 
 
 [libraries]
@@ -31,7 +31,7 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2024010209171704183456.6d035b91ffb4" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2024041714471713358051.71746f05c18e" }
 
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
