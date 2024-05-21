@@ -1,6 +1,6 @@
 version: 2
 registries:
-  github:
+  gradle-artifactory:
     enabled: true
     type: maven-repository
     url: https://maven.pkg.github.com/navikt/
@@ -19,6 +19,7 @@ updates:
   # Maintain dependencies for gradle
   - package-ecosystem: "gradle"
     directory: "/"
+    registries: "*" # Check all registries for gradle dependencies
     schedule:
       interval: "weekly"
       time: "12:20"
