@@ -1,7 +1,6 @@
 version: 2
 registries:
   gradle-artifactory:
-    enabled: true
     type: maven-repository
     url: https://maven.pkg.github.com/navikt/
     token: ${{ secrets.GITHUB_TOKEN }}
