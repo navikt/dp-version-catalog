@@ -1,10 +1,10 @@
 version: 2
 registries:
-  gradle-artifactory:
+  maven-github:
     type: maven-repository
-    url: https://maven.pkg.github.com/navikt/
-    token: ${{secrets.GITHUB_TOKEN}}
-    username: x-access-token
+    url: https://github-package-registry-mirror.gc.nav.no/cached/maven-release
+    username: POSTMAN
+    password: PAT
 updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -18,7 +18,8 @@ updates:
   # Maintain dependencies for gradle
   - package-ecosystem: "gradle"
     directory: "/"
-    registries: "*" # Check all registries for gradle dependencies
+    registries:
+      - maven-github
     schedule:
       interval: "weekly"
       time: "12:20"
