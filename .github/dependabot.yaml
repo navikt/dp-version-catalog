@@ -3,7 +3,7 @@ registries:
   gradle-artifactory:
     type: maven-repository
     url: https://maven.pkg.github.com/navikt/
-    token: ${{ secrets.GITHUB_TOKEN }}
+    token: ${{secrets.GITHUB_TOKEN}}
     username: x-access-token
 updates:
   # Maintain dependencies for GitHub Actions
