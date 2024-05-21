@@ -2,17 +2,17 @@
 format.version = "1.1"
 
 [versions]
-dp-biblioteker = "2024.04.08-22.58.82250603e7b6"
-jackson = "2.17.0"
-kotest = "5.8.1"
-kotlin = "1.9.24"
-ktor = "2.3.10"
-testcontainer = "1.19.7"
+dp-biblioteker = "2024.05.15-10.36.c98cfe9cb526"
+jackson = "2.17.1"
+kotest = "5.9.0"
+kotlin = "2.0.0"
+ktor = "2.3.11"
+testcontainer = "1.19.8"
 junit = "5.10.2"
-micrometer = "1.12.5"
+micrometer = "1.13.0"
 logback = "1.5.6"
-flyway = "10.11.1"
-mockk = "1.13.10"
+flyway = "10.13.0"
+mockk = "1.13.11"
 
 
 [libraries]
@@ -21,7 +21,7 @@ dp-biblioteker-image-utils = { group = "no.nav.dagpenger", name = "image-utils",
 dp-biblioteker-oauth2-klient = { group = "no.nav.dagpenger", name = "oauth2-klient", version.ref = "dp-biblioteker" }
 dp-biblioteker-ktor-klient-metrics = { group = "no.nav.dagpenger", name = "ktor-client-metrics", version.ref = "dp-biblioteker" }
 dp-biblioteker-pdl-klient = { group = "no.nav.dagpenger", name = "pdl-klient", version.ref = "dp-biblioteker"}
-dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20240304.24.a9b330" }
+dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20240412.29.afd090" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 micrometer-registry-prometheus = { group = "io.micrometer", name = "micrometer-registry-prometheus", version.ref = "micrometer" }
@@ -38,7 +38,7 @@ flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" 
 flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql", version.ref = "flyway" }
 hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.1.0" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.0" }
-postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.2" }
+postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.3" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
 
 # Serialization
@@ -52,7 +52,7 @@ testcontainer = { group = "org.testcontainers", name = "testcontainers", version
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
 kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-jvm", version.ref = "kotest" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
-mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.1.0" }
+mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.1.5" }
 
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
