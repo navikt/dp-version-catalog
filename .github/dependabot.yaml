@@ -2,7 +2,7 @@ version: 2
 registries:
   github:
     enabled: true
-    type: nav-private
+    type: maven-repository
     url: https://maven.pkg.github.com/navikt/
     token: ${{ secrets.GITHUB_TOKEN }}
     username: x-access-token
