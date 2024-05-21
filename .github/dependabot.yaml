@@ -20,7 +20,6 @@ updates:
     directory: "/"
     registries:
       - maven-github
-      - maven-central
     schedule:
       interval: "weekly"
       time: "12:20"
