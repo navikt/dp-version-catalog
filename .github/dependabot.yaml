@@ -5,6 +5,11 @@ registries:
     url: https://github-package-registry-mirror.gc.nav.no/cached/maven-release
     username: POSTMAN
     password: PAT
+  maven-central:
+    type: maven-repository
+    url: https://repo.maven.apache.org/maven2
+
+
 updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -20,6 +25,7 @@ updates:
     directory: "/"
     registries:
       - maven-github
+      - maven-central
     schedule:
       interval: "weekly"
       time: "12:20"
