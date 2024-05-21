@@ -1,4 +1,11 @@
 version: 2
+registries:
+  github:
+    enabled: true
+    type: nav-private
+    url: https://maven.pkg.github.com/navikt/
+    token: ${{ secrets.GITHUB_TOKEN }}
+    username: x-access-token
 updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -11,23 +18,6 @@ updates:
           - "*"
   # Maintain dependencies for gradle
   - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      time: "12:20"
-      day: "wednesday"
-      timezone: "Europe/Oslo"
-    groups:
-      gradle:
-        patterns:
-          - "*"
-  # Maintain dependencies for docker
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "daily"
-  # Maintain dependencies for npm
-  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
