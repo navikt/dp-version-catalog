@@ -10,7 +10,7 @@ ktor = "2.3.12"
 testcontainer = "1.20.1"
 junit = "5.10.2"
 logback = "1.5.8"
-flyway = "10.18.0"
+flyway = "10.18.1"
 mockk = "1.13.12"
 
 
@@ -35,7 +35,7 @@ rapids-and-rivers-test = { group = "com.github.navikt.tbd-libs", name = "rapids-
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
 flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql", version.ref = "flyway" }
-hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.1.0" }
+hikari = { group = "com.zaxxer", name = "HikariCP", version = "6.0.0" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.0" }
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.4" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
