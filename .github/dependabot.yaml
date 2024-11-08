@@ -23,9 +23,7 @@ updates:
   # Maintain dependencies for gradle
   - package-ecosystem: "gradle"
     directory: "/"
-    registries:
-      - maven-github
-      - maven-central
+    registries: "*"
     schedule:
       interval: "weekly"
       time: "12:20"
