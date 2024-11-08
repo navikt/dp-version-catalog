@@ -3,8 +3,6 @@ registries:
   maven-github:
     type: maven-repository
     url: https://github-package-registry-mirror.gc.nav.no/cached/maven-release
-    username: POSTMAN
-    password: PAT
   maven-central:
     type: maven-repository
     url: https://repo.maven.apache.org/maven2
