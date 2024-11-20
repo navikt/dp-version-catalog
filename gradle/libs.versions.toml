@@ -2,16 +2,16 @@
 format.version = "1.1"
 
 [versions]
-jackson = "2.17.2"
+jackson = "2.18.1"
 kotest = "5.9.1"
-kotlin = "2.0.20"
+kotlin = "2.0.21"
 ktor = "3.0.1"
-testcontainer = "1.20.1"
+testcontainer = "1.20.3"
 junit = "5.10.2"
-logback = "1.5.8"
-flyway = "10.18.0"
-mockk = "1.13.12"
-tbd-libs = "2024.11.15-09.09-08ca346b"
+logback = "1.5.12"
+flyway = "10.21.0"
+mockk = "1.13.13"
+tbd-libs = "2024.11.19-09.27-9c591574"
 
 
 [libraries]
@@ -33,7 +33,7 @@ naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
 flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql", version.ref = "flyway" }
-hikari = { group = "com.zaxxer", name = "HikariCP", version = "5.1.0" }
+hikari = { group = "com.zaxxer", name = "HikariCP", version = "6.2.1" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.0" }
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.4" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
@@ -49,7 +49,7 @@ testcontainer = { group = "org.testcontainers", name = "testcontainers", version
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
 kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-jvm", version.ref = "kotest" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
-mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.1.9" }
+mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.1.10" }
 
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
@@ -80,4 +80,4 @@ naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 spotless = { id = "com.diffplug.spotless", version = "6.25.0" }
-shadow-jar = { id = "com.gradleup.shadow",  version =  "8.3.2" }
+shadow-jar = { id = "com.gradleup.shadow",  version =  "8.3.5" }
