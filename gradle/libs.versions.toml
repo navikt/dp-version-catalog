@@ -9,7 +9,7 @@ ktor = "3.0.1"
 testcontainer = "1.20.3"
 junit = "5.10.2"
 logback = "1.5.12"
-flyway = "10.21.0"
+flyway = "11.0.0"
 mockk = "1.13.13"
 tbd-libs = "2024.11.19-09.27-9c591574"
 
