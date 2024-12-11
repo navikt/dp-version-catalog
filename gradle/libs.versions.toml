@@ -4,7 +4,7 @@ format.version = "1.1"
 [versions]
 jackson = "2.18.2"
 kotest = "5.9.1"
-kotlin = "2.0.21"
+kotlin = "2.1.0"
 ktor = "3.0.2"
 testcontainer = "1.20.4"
 junit = "5.10.2"
