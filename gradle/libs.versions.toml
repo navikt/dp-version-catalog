@@ -11,7 +11,7 @@ junit = "5.10.2"
 logback = "1.5.12"
 flyway = "11.0.1"
 mockk = "1.13.13"
-tbd-libs = "2024.11.29-15.07-105481e3"
+tbd-libs = "2024.12.18-11.39-73f8eecb"
 
 
 [libraries]
