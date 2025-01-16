@@ -21,3 +21,6 @@ updates:
     registries: "*"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "io.mockk:mockk"
+        versions: ["1.13.16"]
