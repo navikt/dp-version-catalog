@@ -25,7 +25,7 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2025012712551737978926.de930d8e0feb" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2025030709111741335066.dc4411f7bc29" }
 rapids-and-rivers-test = { group = "com.github.navikt.tbd-libs", name = "rapids-and-rivers-test", version.ref = "tbd-libs" }
 naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-app", version.ref = "tbd-libs" }
 
