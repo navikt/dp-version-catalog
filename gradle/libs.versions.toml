@@ -32,7 +32,7 @@ naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-
 # Database
 flyway = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway" }
 flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql", version.ref = "flyway" }
-hikari = { group = "com.zaxxer", name = "HikariCP", version = "6.2.1" }
+hikari = { group = "com.zaxxer", name = "HikariCP", version = "6.3.0" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.1" }
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.5" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
