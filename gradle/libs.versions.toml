@@ -10,7 +10,7 @@ testcontainer = "1.21.0"
 junit = "5.10.2"
 logback = "1.5.18"
 flyway = "11.5.0"
-mockk = "1.14.0"
+mockk = "1.14.2"
 tbd-libs = "2025.04.04-09.18-7cc3badf"
 
 [libraries]
