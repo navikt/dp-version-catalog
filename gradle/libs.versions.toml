@@ -15,7 +15,7 @@ tbd-libs = "2025.06.20-13.05-40af2647"
 
 [libraries]
 # Utils
-dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20240412.29.afd090" }
+dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20250624.31.bf07ce" }
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging", version = "3.0.5" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 prometheus-simpleclient = { group = "io.prometheus", name = "simpleclient_common", version = "0.16.0" }
