@@ -4,7 +4,8 @@ format.version = "1.1"
 [versions]
 kotest = "6.0.1"
 jackson = "2.20.0"
-jackson-annotation = "2.20" // There is a mistake in the versioning of jackson-annotation
+# There is a mistake in the versioning of jackson-annotation
+jackson-annotation = "2.20"
 kotlin = "2.2.10"
 ktor = "3.2.3"
 testcontainer = "1.21.3"
