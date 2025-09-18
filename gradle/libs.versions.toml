@@ -5,7 +5,7 @@ format.version = "1.1"
 kotest = "6.0.1"
 jackson = "2.20.0"
 # There is a mistake in the versioning of jackson-annotation
-jackson-annotation = "2.20"
+jacksonAnnotation = "2.20"
 kotlin = "2.2.10"
 ktor = "3.2.3"
 testcontainer = "1.21.3"
@@ -41,7 +41,7 @@ postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "
 testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
 
 # Serialization
-jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jackson-annotation" }
+jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jacksonAnnotation" }
 jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version.ref = "jackson" }
 jackson-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version.ref = "jackson" }
 jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version.ref = "jackson" }
