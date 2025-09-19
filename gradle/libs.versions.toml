@@ -51,7 +51,7 @@ testcontainer = { group = "org.testcontainers", name = "testcontainers", version
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
 kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-jvm", version.ref = "kotest" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
-mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "2.2.1" }
+mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "3.0.0" }
 
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
