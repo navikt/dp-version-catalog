@@ -11,7 +11,7 @@ ktor = "3.3.0"
 testcontainer = "1.21.3"
 junit = "5.10.2"
 logback = "1.5.19"
-flyway = "11.13.2"
+flyway = "11.14.1"
 mockk = "1.14.6"
 tbd-libs = "2025.09.15-16.10-ac41dc5c"
 
