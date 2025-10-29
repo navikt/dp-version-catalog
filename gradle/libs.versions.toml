@@ -6,7 +6,7 @@ kotest = "6.0.4"
 jackson = "2.20.0"
 # There is a mistake in the versioning of jackson-annotation
 jacksonAnnotation = "2.20"
-kotlin = "2.2.10"
+kotlin = "2.2.21"
 ktor = "3.3.1"
 testcontainer = "1.21.3"
 junit = "5.10.2"
