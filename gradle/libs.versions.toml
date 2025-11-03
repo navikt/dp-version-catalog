@@ -6,14 +6,14 @@ kotest = "6.0.4"
 jackson = "2.20.0"
 # There is a mistake in the versioning of jackson-annotation
 jacksonAnnotation = "2.20"
-kotlin = "2.2.10"
+kotlin = "2.2.21"
 ktor = "3.3.1"
 testcontainer = "1.21.3"
 junit = "5.10.2"
-logback = "1.5.19"
-flyway = "11.14.1"
+logback = "1.5.20"
+flyway = "11.15.0"
 mockk = "1.14.6"
-tbd-libs = "2025.09.19-13.31-61342e73"
+tbd-libs = "2025.10.31-14.20-3733c982"
 
 [libraries]
 # Utils
@@ -81,5 +81,5 @@ naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-spotless = { id = "com.diffplug.spotless", version = "7.2.1" }
+spotless = { id = "com.diffplug.spotless", version = "8.0.0" }
 shadow-jar = { id = "com.gradleup.shadow",  version =  "9.2.2" }
