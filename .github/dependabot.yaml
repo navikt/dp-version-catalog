@@ -1,26 +1,38 @@
 version: 2
-registries:
-  maven-github:
-    type: maven-repository
-    url: https://github-package-registry-mirror.gc.nav.no/cached/maven-release
-  maven-central:
-    type: maven-repository
-    url: https://repo.maven.apache.org/maven2
-
-
 updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-      
+      time: "10:05"
+      timezone: "Europe/Oslo"
+    cooldown:
+      default-days: 7
   # Maintain dependencies for gradle
   - package-ecosystem: "gradle"
     directory: "/"
-    registries: "*"
     schedule:
       interval: "daily"
-    ignore:
-      - dependency-name: "io.mockk:mockk"
-        versions: ["1.13.16"]
+      time: "10:05"
+      timezone: "Europe/Oslo"
+    cooldown:
+      default-days: 7
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "10:05"
+      timezone: "Europe/Oslo"
+    cooldown:
+      default-days: 7
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "10:05"
+      timezone: "Europe/Oslo"
+    cooldown:
+      default-days: 7
