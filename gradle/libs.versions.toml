@@ -8,7 +8,7 @@ jackson = "2.20.1"
 jacksonAnnotation = "2.20"
 kotlin = "2.2.21"
 ktor = "3.3.1"
-testcontainer = "1.21.3"
+testcontainer = "2.0.2"
 junit = "5.10.2"
 logback = "1.5.20"
 flyway = "11.15.0"
@@ -38,7 +38,7 @@ flyway-postgres = { group = "org.flywaydb", name = "flyway-database-postgresql",
 hikari = { group = "com.zaxxer", name = "HikariCP", version = "7.0.2" }
 kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.9.1" }
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.8" }
-testcontainer-postgresql = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainer" }
+testcontainer-postgresql = { group = "org.testcontainers", name = "testcontainers-postgresql", version.ref = "testcontainer" }
 
 # Serialization
 jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jacksonAnnotation" }
