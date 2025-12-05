@@ -28,7 +28,7 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2025091914191758284377.e07ac23cddbd" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2025110410541762250064.d7e58c3fad81" }
 rapids-and-rivers-test = { group = "com.github.navikt.tbd-libs", name = "rapids-and-rivers-test", version.ref = "tbd-libs" }
 naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-app", version.ref = "tbd-libs" }
 
@@ -51,7 +51,7 @@ testcontainer = { group = "org.testcontainers", name = "testcontainers", version
 kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
 kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-jvm", version.ref = "kotest" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
-mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "3.0.0" }
+mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "3.0.1" }
 
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
@@ -81,5 +81,5 @@ naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-spotless = { id = "com.diffplug.spotless", version = "8.0.0" }
+spotless = { id = "com.diffplug.spotless", version = "8.1.0" }
 shadow-jar = { id = "com.gradleup.shadow",  version =  "9.2.2" }
