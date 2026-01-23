@@ -3,9 +3,9 @@ format.version = "1.1"
 
 [versions]
 kotest = "6.1.0"
-jackson = "2.20.1"
+jackson = "2.21.0"
 # There is a mistake in the versioning of jackson-annotation
-jacksonAnnotation = "2.20"
+jacksonAnnotation = "2.21"
 kotlin = "2.3.0"
 ktor = "3.3.1"
 testcontainer = "2.0.2"
@@ -19,7 +19,7 @@ tbd-libs = "2025.11.04-10.54-c831038e"
 # Utils
 
 dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20251016.40.a3c526" }
-kotlin-logging = { group = "io.github.oshai", name = "kotlin-logging", version = "7.0.13" }
+kotlin-logging = { group = "io.github.oshai", name = "kotlin-logging", version = "7.0.14" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 prometheus-simpleclient = { group = "io.prometheus", name = "simpleclient_common", version = "0.16.0" }
 
