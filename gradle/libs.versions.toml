@@ -2,7 +2,7 @@
 format.version = "1.1"
 
 [versions]
-kotest = "6.0.4"
+kotest = "6.1.0"
 jackson = "2.20.1"
 # There is a mistake in the versioning of jackson-annotation
 jacksonAnnotation = "2.20"
@@ -10,9 +10,9 @@ kotlin = "2.3.0"
 ktor = "3.3.1"
 testcontainer = "2.0.2"
 junit = "5.10.2"
-logback = "1.5.20"
+logback = "1.5.25"
 flyway = "11.15.0"
-mockk = "1.14.6"
+mockk = "1.14.7"
 tbd-libs = "2025.11.04-10.54-c831038e"
 
 [libraries]
