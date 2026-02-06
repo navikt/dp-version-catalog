@@ -81,5 +81,5 @@ naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-spotless = { id = "com.diffplug.spotless", version = "8.1.0" }
+spotless = { id = "com.diffplug.spotless", version = "8.2.1" }
 shadow-jar = { id = "com.gradleup.shadow",  version =  "9.3.1" }
