@@ -3,11 +3,9 @@ format.version = "1.1"
 
 [versions]
 kotest = "6.1.0"
-jackson = "2.21.1"
-# There is a mistake in the versioning of jackson-annotation
-jacksonAnnotation = "2.21"
+jackson = "3.1.2"
 kotlin = "2.3.21"
-ktor = "3.3.1"
+ktor = "3.4.3"
 testcontainer = "2.0.2"
 junit = "5.10.2"
 logback = "1.5.25"
@@ -28,7 +26,7 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2026042008201776666058" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2026043009341777534451" }
 rapids-and-rivers-test = { group = "com.github.navikt.tbd-libs", name = "rapids-and-rivers-test", version.ref = "tbd-libs" }
 naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-app", version.ref = "tbd-libs" }
 
@@ -40,11 +38,9 @@ kotlinquery = { group = "com.github.seratch", name = "kotliquery", version = "1.
 postgresql-driver = { group = "org.postgresql", name = "postgresql", version = "42.7.8" }
 testcontainer-postgresql = { group = "org.testcontainers", name = "testcontainers-postgresql", version.ref = "testcontainer" }
 
-# Serialization
-jackson-annotation = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version.ref = "jacksonAnnotation" }
-jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version.ref = "jackson" }
-jackson-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version.ref = "jackson" }
-jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version.ref = "jackson" }
+# Serialization (Jackson 3.x — tools.jackson.*)
+jackson-databind = { group = "tools.jackson.core", name = "jackson-databind", version.ref = "jackson" }
+jackson-kotlin = { group = "tools.jackson.module", name = "jackson-module-kotlin", version.ref = "jackson" }
 
 # Test
 testcontainer = { group = "org.testcontainers", name = "testcontainers", version.ref = "testcontainer" }
@@ -57,10 +53,9 @@ mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", v
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
 ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
-ktor-client-jackson = { group = "io.ktor", name = "ktor-client-jackson", version.ref = "ktor" }
 ktor-client-logging-jvm = { group = "io.ktor", name = "ktor-client-logging-jvm", version.ref = "ktor" }
 ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor" }
-ktor-serialization-jackson = { group = "io.ktor", name = "ktor-serialization-jackson", version.ref = "ktor" }
+ktor-serialization-jackson3 = { group = "io.ktor", name = "ktor-serialization-jackson3", version.ref = "ktor" }
 ktor-server = { group = "io.ktor", name = "ktor-server", version.ref = "ktor" }
 ktor-server-auth = { group = "io.ktor", name = "ktor-server-auth", version.ref = "ktor" }
 ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
@@ -71,10 +66,10 @@ ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metric
 ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", version.ref = "ktor" }
 
 [bundles]
-jackson = ["jackson-datatype-jsr310", "jackson-core", "jackson-annotation", "jackson-kotlin"]
+jackson = ["jackson-databind", "jackson-kotlin"]
 kotest-assertions = ["kotest-assertions-core", "kotest-assertions-json"]
-ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-jackson", "ktor-client-logging-jvm", "ktor-client-content-negotiation"]
-ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages", "ktor-serialization-jackson"]
+ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-logging-jvm", "ktor-client-content-negotiation", "ktor-serialization-jackson3"]
+ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages", "ktor-serialization-jackson3"]
 postgres = ["flyway","flyway-postgres", "hikari", "postgresql-driver", "kotlinquery"]
 postgres-test = ["testcontainer", "testcontainer-postgresql"]
 naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
