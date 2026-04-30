@@ -69,6 +69,20 @@ private val objectMapper = jacksonMapperBuilder()
 
 Se også: [jackson-module-kotlin#1154](https://github.com/FasterXML/jackson-module-kotlin/issues/1154)
 
+### Endrede standardverdier i Jackson 3
+
+To innstillinger som tidligere måtte skrus **av** eksplisitt er nå **av som standard**:
+
+| Innstilling | Jackson 2 | Jackson 3 |
+|-------------|-----------|-----------|
+| `WRITE_DATES_AS_TIMESTAMPS` | ✅ på | ❌ av |
+| `FAIL_ON_UNKNOWN_PROPERTIES` | ✅ på | ❌ av |
+
+Det betyr:
+- `.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)` — **kan fjernes**, men er ufarlig å beholde
+- `.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)` — **kan fjernes**, men er ufarlig å beholde
+- Kode som **ikke** eksplisitt skrur på disse vil nå oppføre seg annerledes enn i Jackson 2
+
 ### JavaTimeModule
 
 `jackson-datatype-jsr310` er ikke lenger nødvendig som separat avhengighet — Java Time-støtte er innebygget i `jackson-databind` 3.x.
