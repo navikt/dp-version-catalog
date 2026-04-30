@@ -31,12 +31,16 @@ import tools.jackson.databind.ObjectMapper
 
 ### Ktor ContentNegotiation
 
+Funksjonsnavnet er uendret — kun pakken endres:
+
 ```kotlin
 // Før
-install(ContentNegotiation) { jackson { } }
+import io.ktor.serialization.jackson.jackson
 
 // Etter
-install(ContentNegotiation) { jackson3 { } }
+import io.ktor.serialization.jackson3.jackson  // ← ny pakke, samme funksjonsnavn
+
+install(ContentNegotiation) { jackson { } }  // uendret
 ```
 
 ### ⚠️ Kritisk: Norske tegn i Kotlin-properties

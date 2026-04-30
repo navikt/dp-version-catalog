@@ -55,7 +55,7 @@ ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
 ktor-client-logging-jvm = { group = "io.ktor", name = "ktor-client-logging-jvm", version.ref = "ktor" }
 ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor" }
-ktor-serialization-jackson3 = { group = "io.ktor", name = "ktor-serialization-jackson3", version.ref = "ktor" }
+ktor-serialization-jackson = { group = "io.ktor", name = "ktor-serialization-jackson3", version.ref = "ktor" }
 ktor-server = { group = "io.ktor", name = "ktor-server", version.ref = "ktor" }
 ktor-server-auth = { group = "io.ktor", name = "ktor-server-auth", version.ref = "ktor" }
 ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
@@ -68,8 +68,8 @@ ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", ver
 [bundles]
 jackson = ["jackson-databind", "jackson-kotlin"]
 kotest-assertions = ["kotest-assertions-core", "kotest-assertions-json"]
-ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-logging-jvm", "ktor-client-content-negotiation", "ktor-serialization-jackson3"]
-ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages", "ktor-serialization-jackson3"]
+ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-logging-jvm", "ktor-client-content-negotiation", "ktor-serialization-jackson"]
+ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages", "ktor-serialization-jackson"]
 postgres = ["flyway","flyway-postgres", "hikari", "postgresql-driver", "kotlinquery"]
 postgres-test = ["testcontainer", "testcontainer-postgresql"]
 naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
