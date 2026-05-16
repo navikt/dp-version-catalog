@@ -12,6 +12,7 @@ logback = "1.5.25"
 flyway = "11.15.0"
 mockk = "1.14.7"
 tbd-libs = "20260513.1819"
+cucumber = "7.22.1"
 
 [libraries]
 # Utils
@@ -49,6 +50,12 @@ kotest-assertions-json = { group = "io.kotest", name = "kotest-assertions-json-j
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 mock-oauth2-server = { group = "no.nav.security", name = "mock-oauth2-server", version = "3.0.3" }
 
+# Cucumber
+cucumber-java = { module = "io.cucumber:cucumber-java", version.ref = "cucumber" }
+cucumber-java8 = { module = "io.cucumber:cucumber-java8", version.ref = "cucumber" }
+cucumber-junit-platform-engine = { module = "io.cucumber:cucumber-junit-platform-engine", version.ref = "cucumber" }
+cucumber-junit-platform-suite = { module = "org.junit.platform:junit-platform-suite", version = "1.10.2" }
+
 # Ktor
 ktor-client-auth-jvm = { group = "io.ktor", name = "ktor-client-auth-jvm", version.ref = "ktor" }
 ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
@@ -73,6 +80,7 @@ ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-
 postgres = ["flyway","flyway-postgres", "hikari", "postgresql-driver", "kotlinquery"]
 postgres-test = ["testcontainer", "testcontainer-postgresql"]
 naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
+cucumber = ["cucumber-java", "cucumber-java8", "cucumber-junit-platform-engine", "cucumber-junit-platform-suite"]
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
