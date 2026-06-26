@@ -85,4 +85,4 @@ cucumber = ["cucumber-java", "cucumber-java8", "cucumber-junit-platform-engine",
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 spotless = { id = "com.diffplug.spotless", version = "8.6.0" }
-shadow-jar = { id = "com.gradleup.shadow",  version =  "9.4.2" }
+shadow-jar = { id = "com.gradleup.shadow",  version =  "9.4.3" }
