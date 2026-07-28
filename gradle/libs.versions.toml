@@ -19,7 +19,7 @@ rapids-and-rivers = "2026071513121784113927"
 # Utils
 
 dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20251016.40.a3c526" }
-kotlin-logging = { group = "io.github.oshai", name = "kotlin-logging", version = "7.0.14" }
+kotlin-logging = { group = "io.github.oshai", name = "kotlin-logging", version = "8.0.4" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 prometheus-simpleclient = { group = "io.prometheus", name = "simpleclient_common", version = "0.16.0" }
 
