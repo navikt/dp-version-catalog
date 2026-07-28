@@ -19,3 +19,15 @@ updates:
           - "com.diffplug.spotless*"
           - "com.gradleup.shadow*"
           - "gradle-wrapper"
+      database:
+        patterns:
+          - "com.zaxxer:*"
+          - "org.postgresql:*"
+          - "org.testcontainers:*"
+          - "org.flywaydb:*"
+      test:
+        patterns:
+          - "io.kotest:*"
+          - "io.mockk:*"
+          - "io.cucumber:*"
+          - "org.junit.platform:*"
