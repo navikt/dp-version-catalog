@@ -31,7 +31,16 @@ jobs:
 
       - name: Set release tag
         run: |
-          export TAG_NAME="$(TZ="Europe/Oslo" date +%Y%m%d).$(echo $GITHUB_RUN_NUMBER).$(echo $GITHUB_SHA | cut -c 1-6)"
+          # NB: Versjonen har bevisst KUN to rent numeriske segmenter (dato.byggnummer),
+          # uten git-sha-suffiks. Dependabot sin Maven-versjonsparser tolker et
+          # avsluttende ikke-numerisk segment (f.eks. "f73750") som en Maven-classifier,
+          # og filtrerer da bort alle andre versjoner som ikke deler nøyaktig samme
+          # classifier. Siden git-shaen er unik per commit, matchet ALDRI noen andre
+          # versjoner, og Dependabot rapporterte permanent "no update possible" for
+          # denne avhengigheten i alle konsument-repoer. GITHUB_RUN_NUMBER er allerede
+          # unikt og monotont økende, så git-shaen tilfører ingen unikhet — kun
+          # sporbarhet, som fortsatt bevares via selve git-taggen og release notes.
+          export TAG_NAME="$(TZ="Europe/Oslo" date +%Y%m%d).$(echo $GITHUB_RUN_NUMBER)"
           echo "RELEASE_TAG=$TAG_NAME" >> $GITHUB_ENV
       - uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # ratchet:ncipollo/release-action@v1
         with:
