@@ -12,7 +12,7 @@ logback = "1.5.25"
 flyway = "11.15.0"
 mockk = "1.14.7"
 tbd-libs = "20260702.1010"
-cucumber = "7.22.1"
+cucumber = "7.34.6"
 rapids-and-rivers = "2026071513121784113927"
 
 [libraries]
