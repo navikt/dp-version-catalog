@@ -13,6 +13,7 @@ flyway = "11.15.0"
 mockk = "1.14.7"
 tbd-libs = "20260702.1010"
 cucumber = "7.22.1"
+rapids-and-rivers = "2026071512471784112430"
 
 [libraries]
 # Utils
@@ -27,8 +28,8 @@ logback-core = { group = "ch.qos.logback", name = "logback-core", version.ref = 
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
 
 # Rapids and Rivers
-rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version = "2026071512471784112430" }
-rapids-and-rivers-test = { group = "com.github.navikt.rapids-and-rivers", name = "rapids-and-rivers-test", version = "2026071512471784112430" }
+rapids-and-rivers = { group = "com.github.navikt", name = "rapids-and-rivers", version.ref = "rapids-and-rivers" }
+rapids-and-rivers-test = { group = "com.github.navikt.rapids-and-rivers", name = "rapids-and-rivers-test", version.ref = "rapids-and-rivers" }
 naisful-test-app = { group = "com.github.navikt.tbd-libs", name = "naisful-test-app", version.ref = "tbd-libs" }
 
 # Database
@@ -77,7 +78,7 @@ jackson = ["jackson-databind", "jackson-kotlin"]
 kotest-assertions = ["kotest-assertions-core", "kotest-assertions-json"]
 ktor-client = ["ktor-client-auth-jvm", "ktor-client-cio", "ktor-client-logging-jvm", "ktor-client-content-negotiation", "ktor-serialization-jackson"]
 ktor-server = ["ktor-server", "ktor-server-auth", "ktor-server-auth-jwt", "ktor-server-content-negotiation", "ktor-server-status-pages", "ktor-serialization-jackson"]
-postgres = ["flyway","flyway-postgres", "hikari", "postgresql-driver", "kotlinquery"]
+postgres = ["flyway", "flyway-postgres", "hikari", "postgresql-driver", "kotlinquery"]
 postgres-test = ["testcontainer", "testcontainer-postgresql"]
 naisful-rapid-and-rivers-test = ["rapids-and-rivers-test", "naisful-test-app"]
 cucumber = ["cucumber-java", "cucumber-java8", "cucumber-junit-platform-engine", "cucumber-junit-platform-suite"]
@@ -85,4 +86,4 @@ cucumber = ["cucumber-java", "cucumber-java8", "cucumber-junit-platform-engine",
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 spotless = { id = "com.diffplug.spotless", version = "8.6.0" }
-shadow-jar = { id = "com.gradleup.shadow",  version =  "9.4.3" }
+shadow-jar = { id = "com.gradleup.shadow", version = "9.4.3" }

@@ -13,3 +13,9 @@ updates:
       interval: "daily"
       time: "10:05"
       timezone: "Europe/Oslo"
+    groups:
+      build-tooling:
+        patterns:
+          - "com.diffplug.spotless*"
+          - "com.gradleup.shadow*"
+          - "gradle-wrapper"
