@@ -12,7 +12,7 @@ junit = "5.10.2"
 logback = "1.6.1"
 flyway = "13.1.0"
 mockk = "1.14.11"
-tbd-libs = "20260702.1010"
+tbd-libs = "20260811.1310"
 cucumber = "7.34.6"
 rapids-and-rivers = "2026071513121784113927"
 
