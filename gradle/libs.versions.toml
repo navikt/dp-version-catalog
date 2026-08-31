@@ -3,7 +3,7 @@ format.version = "1.1"
 # Trigger republish for å teste fikset versjonsskjema (uten git-sha), se publish.yml
 
 [versions]
-kotest = "6.2.3"
+kotest = "6.2.4"
 jackson = "3.2.2"
 kotlin = "2.4.10"
 ktor = "3.5.2"
@@ -13,7 +13,7 @@ logback = "1.6.3"
 flyway = "13.4.0"
 mockk = "1.14.11"
 tbd-libs = "20260811.1310"
-cucumber = "7.34.6"
+cucumber = "7.34.7"
 rapids-and-rivers = "2026071513121784113927"
 
 [libraries]
