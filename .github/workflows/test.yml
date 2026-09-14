@@ -8,7 +8,6 @@ on:
 
 jobs:
   test:
-    name: Verifiser at alle dependencies resolver
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
