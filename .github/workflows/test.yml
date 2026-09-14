@@ -6,7 +6,7 @@ on:
       - 'gradle/libs.versions.toml'
 
 jobs:
-  verify:
+  test:
     name: Verifiser at alle dependencies resolver
     runs-on: ubuntu-latest
     steps:
