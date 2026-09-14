@@ -77,7 +77,7 @@ ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metric
 ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", version.ref = "ktor" }
 
 # Otel
-otel-api = { group = "io.opentelemtry", name = "opentelemtry-api", version.ref = "otel-api" }
+otel-api = { group = "io.opentelemetry", name = "opentelemetry-api", version.ref = "otel-api" }
 otel-instrumentation-annotations = { group = "io.opentelemetry.instrumentation", name = "opentelemetry-instrumentation-annotations", version.ref = "otel-instrumentation" }
 
 [bundles]
