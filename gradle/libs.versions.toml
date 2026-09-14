@@ -15,6 +15,8 @@ mockk = "1.14.11"
 tbd-libs = "20260811.1310"
 cucumber = "7.34.7"
 rapids-and-rivers = "2026071513121784113927"
+otel-api = "1.65.0
+otel-instrumentation = "2.30.0"
 
 [libraries]
 # Utils
@@ -73,6 +75,10 @@ ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version.ref = "ktor" }
 ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metrics-micrometer", version.ref = "ktor" }
 ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", version.ref = "ktor" }
+
+# Otel
+otel-api = { group = "io.opentelemtry", name = "opentelemtry-api", version.ref = "otel-api" }
+otel-instrumentation-annotations = { group = "io.opentelemetry.instrumentation", name = "opentelemetry-instrumentation-annotations", version.ref = "otel-instrumentation" }
 
 [bundles]
 jackson = ["jackson-databind", "jackson-kotlin"]
