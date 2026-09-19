@@ -14,7 +14,7 @@ flyway = "13.7.0"
 mockk = "1.14.11"
 tbd-libs = "20260917.2152"
 cucumber = "7.34.8"
-rapids-and-rivers = "2026071513121784113927"
+rapids-and-rivers = "2026091610031789545782"
 otel-api = "1.66.0"
 otel-instrumentation = "2.31.1"
 
