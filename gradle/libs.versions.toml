@@ -15,7 +15,7 @@ mockk = "1.14.11"
 tbd-libs = "20261005.1432"
 cucumber = "8.0.4"
 rapids-and-rivers = "2026091610031789545782"
-otel-api = "1.66.0"
+otel-api = "1.67.0"
 otel-instrumentation = "2.32.0"
 
 [libraries]
