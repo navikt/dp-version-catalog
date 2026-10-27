@@ -16,7 +16,7 @@ tbd-libs = "20261013.1613"
 cucumber = "8.0.4"
 rapids-and-rivers = "2026091610031789545782"
 otel-api = "1.67.0"
-otel-instrumentation = "2.33.0"
+otel-instrumentation = "2.33.1"
 
 [libraries]
 # Utils
