@@ -21,7 +21,7 @@ otel-instrumentation = "2.34.0"
 [libraries]
 # Utils
 
-dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20251016.40.a3c526" }
+dp-aktivitetslogg = { group = "no.nav.dagpenger", name = "aktivitetslogg", version = "20261119.51.08deca" }
 kotlin-logging = { group = "io.github.oshai", name = "kotlin-logging", version = "8.0.7" }
 konfig = { group = "com.natpryce", name = "konfig", version = "1.6.10.0" }
 prometheus-simpleclient = { group = "io.prometheus", name = "simpleclient_common", version = "0.16.0" }
